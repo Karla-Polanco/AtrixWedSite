@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@200&family=Rubik:wght@300&family=Ubuntu:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-one {
+    display: flex;
+}
+
+.slogan {
+    width: 50%;
+    margin: 4.5em;
+}
+
+.logo {
+    width: 17em;
+    height: auto;
+    margin-left: 5em;
+}
+
+span {
+    font-weight: 700;
+    font-size: 44px;
+    color: #303030;
+}
+
+p {
+    color: #949594;
+    font-size: 25px;
+    margin-top: 2em;
+}
+
+#slogan{
+    font-size: 28px;
+}
+
+.container-one .image {
+    width: 100%;
+}
+
+.container-two {
+    display: flex;
+    margin-top: 5em;
+}
+
+.details {
+    width: 50%;
+    margin: 5em 1em 0 6em;
+}
+
+.container-two .image {
+    width: 20em;
+    margin-left: 3em;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-three {
+    margin-top: 5em;
+}
+
+.cards-help {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin: 1em;
+    margin-top: 2.3em;
+    text-align: center;
+}
+
+.cards-help span {
+    font-size: 1.2em;
+}
+
+.cards-help p {
+    font-size: 1em;
+}
+
+.cards-help .card {
+    padding: 1em;
+    width: 15em;
+    height: auto;
+    border-radius: 1em;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.number {
+    background-color: #113B6D;
+    width: 1em;
+    height: 1em;
+    padding: 1em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 0 0.9em 3.2em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+
+.container-four {
+    margin-top: 5em;
+}
+
+.reasons-container {
+    margin-top: 2em;
+    margin: 2em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.reasons-container span {
+    font-size: 1.4em;
+}
+
+.reasons-container p {
+    font-size: 1.2em;
+}
+
+.reasons-container .img {
+    width: 4.5em;
+    display: flex;
+    margin-bottom: 1.3em;
+    margin-left: 7.7em;
+}
+
+.container-five {
+    margin-top: 5em;
+    background-image: url('../images/fondo.svg');
+    width: 100%;
+    height: 110vh;
+}
+
+.contacts-container{
+    display: flex;
+    justify-content: flex-end; 
+    flex-direction: column; 
+    align-items: flex-end;
+    gap: 1.5em;
+    margin: 2em 5em 0 0;
+}
+
+.contacts-container .contact{
+    background-color: #E7E7E7;
+    width: 20em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.color{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    color: #113B6D;
+    font-size: 1.6em;
+    padding-top: 2em;
+    margin-right: 4em;
+}
+
+.contact span {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contact p {
+    font-size: 20px;
+    margin-top: 1em;
+    color: #727372;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+} 
+
+.contact p a {
+    text-decoration: none;
+    color: #949594;
+}
+
+.contact p a:hover {
+    color: #113B6D;
+}
+
+.contact img {
+    width: 3em;
+    height: auto;
+    margin-right: 1.5em;
+}  
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
